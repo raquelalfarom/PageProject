@@ -365,6 +365,81 @@ body {
   background-color: #2980b9;
 }
 
+/*------------------- Empleo -------------*/
+.empleo {
+  padding: 5rem 5%;
+  background-color: var(--white);
+  text-align: center;
+}
+
+.empleo-container {
+  display: flex;
+  gap: 3rem;
+  max-width: 1200px;
+  margin: 3rem auto 0;
+  text-align: left;
+}
+
+.empleo-info {
+  flex: 1;
+}
+
+.empleo-info .info-item {
+  margin-bottom: 2rem;
+}
+
+.empleo-info .info-item i {
+  margin-right: 0.5rem;
+  color: var(--primary-color); /* Usa tu color principal */
+}
+
+.empleo-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.empleo-form input[type="file"] {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #f9f9f9;
+}
+
+.empleo-form input,
+.empleo-form textarea {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.empleo-form button.submit-btn {
+  background-color: #2980b9;
+  color: #fff;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.empleo-form button.submit-btn:hover {
+  background-color: #2980b9;
+}
+
+.empleo-info ul {
+  padding-left: 1.5rem;
+  list-style-type: disc;
+}
+
+.empleo-info ul li {
+  margin-bottom: 0.5rem;
+}
+
 /*------------------- Footer -------------*/
 footer {
   background-color: var(--dark-color);
